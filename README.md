@@ -1,5 +1,5 @@
-# Speedy YouTube Playback Control 🚀
-
+![Speedy YouTube Extension Screenshot](image/icon.png) **Speedy** 
+# YouTube Playback Control Extension🚀
 A Chrome extension that enhances YouTube by providing customizable playback speed options directly below the video player. Users can quickly switch between playback speeds, with a visual indicator showing the active speed. 🎥⚡
 
 ## Features 🌟
@@ -8,6 +8,12 @@ A Chrome extension that enhances YouTube by providing customizable playback spee
 - **Active Speed Indicator**: The active speed is highlighted with a red underline beneath the corresponding button. 🔴
 - **Seamless Integration**: The buttons are added directly below the YouTube video player, blending well with YouTube’s existing interface. 🎨
 - **Dynamic Updates**: The extension automatically updates playback speed buttons when navigating to new videos. 🔄
+- 
+## Screenshots 📸
+
+Here is a screenshot of the Speedy YouTube extension in action:
+
+![Speedy YouTube Extension Screenshot](image/ss.png)
 
 ## Installation 🛠️
 
@@ -35,6 +41,8 @@ A Chrome extension that enhances YouTube by providing customizable playback spee
 
 - **Click on any of the speed buttons** to change the playback speed. ⏯️
 - **Red underline** shows the active speed button, making it easy to track the current video speed. 🏷️
+
+
 
 ## License 📜
 
