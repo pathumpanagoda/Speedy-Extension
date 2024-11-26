@@ -1,24 +1,27 @@
 #speedy-buttons {
   display: flex;
-  gap: 8px;
+  gap: 3px;
   align-items: center;
+  margin-right: 20px;
   margin-left: 20px;
 }
 
 .speedy-button {
-  padding: 4px 8px;
-  background-color: rgba(255, 255, 255, 0.7);
+  padding: 4px 4px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.158);
   border: none;
   border-radius: 4px;
-  color: #000;
+  color: rgba(255, 255, 255, 0.884);
+  font-family: sans-serif;
   cursor: pointer;
   font-size: 12px;
 }
 
 .speedy-button:hover {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.341);
 }
 
 .speedy-button.active-speed {
-  border-bottom: 3px solid red; /* Add red underline for active speed */
+  border-bottom: 2px solid red; /* Add red underline for active speed */
 }
