@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
   "name": "Speedy - YouTube Playback Speed Controller",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Adds playback speed buttons below YouTube videos.",
-  "permissions": ["scripting", "tabs"],
-  "host_permissions": ["https://www.youtube.com/*"],
+  "permissions": ["scripting", "tabs", "storage"],
+  "host_permissions": ["https://*.youtube.com/*"],
   "background": {
     "service_worker": "background.js"
   },
@@ -15,6 +15,12 @@
       "css": ["styles.css"]
     }
   ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
   "icons": {
     "48": "icon.png"
   }

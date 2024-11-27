@@ -23,5 +23,5 @@
 }
 
 .speedy-button.active-speed {
-  border-bottom: 2px solid red; /* Add red underline for active speed */
+  border-bottom: 2px solid red;
 }

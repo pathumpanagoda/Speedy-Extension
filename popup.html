@@ -1,23 +1,31 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Speedy</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Speedy Extension</title>
+  <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <div id="container">
-    <h2>Speedy Controls</h2>
-    <label for="speed">Playback Speed:</label>
-    <select id="speed">
-      <option value="0.25">0.25x</option>
-      <option value="0.5">0.5x</option>
-      <option value="1" selected>1x</option>
-      <option value="1.5">1.5x</option>
-      <option value="2">2x</option>
-      <option value="2.5">2.5x</option>
-    </select>
-    <button id="apply">Apply Speed</button>
+  <div id="popup-container">
+    <header>
+      <h1>Speedy Extension</h1>
+    </header>
+    <main>
+      <div class="toggle-section">
+        <span id="toggle-label">Disable on this site</span>
+        <label class="switch">
+          <input type="checkbox" id="disable-toggle">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <hr>
+      <div class="developer-details">
+        <h2>Developer Details</h2>
+        <p><strong>Linkedin:</strong> <a href="https://linkedin.com/in/pathumpanagoda" target="_blank">linkedin.com/in/pathumpanagoda</a></p>
+        <p><strong>Github:</strong> <a href="https://github.com/pathumpanagoda" target="_blank">github.com/pathumpanagoda</a></p>
+        <p><strong>Email:</strong> pathumpanagoda@gmail.com</p>
+        <p><strong>Version:</strong> 1.2</p>
+      </div>
+    </main>
   </div>
   <script src="popup.js"></script>
 </body>
