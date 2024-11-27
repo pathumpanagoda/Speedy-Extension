@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #1e1e1e;
+    background-color: #161616;
     color: #f0f0f0;
     width: 300px;
     height: 200px;
@@ -92,7 +92,8 @@ body {
   }
 
   .developer-details {
-  margin-top: -10px; /* Reduced top margin */
+  margin-top: -10px;
+  color: #d0cfcf; /* Reduced top margin */
 }
   
   .developer-details h2 {
